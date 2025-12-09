@@ -26,7 +26,7 @@ def Secant(xi, xprev, itrs, eps):
     return xnxt
 
 if __name__ == '__main__':
-    print("Program to find the root of the given function using newton raphson method.")
+    print("Program to find the root of the given function using secant method.")
     xprev = float(input("Enter the initial guess:"))
     x = float(input("Enter the next initial guess:"))
     eps = float(input("Enter the error tolerance value:"))
